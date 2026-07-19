@@ -1,0 +1,5 @@
+/* Color Themes Configuration */
+.theme-dark {
+  --color-bg-primary: #030014;
+  --color-text-primary: #f8fafc;
+}
