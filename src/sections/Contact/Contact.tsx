@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Send, CheckCircle2, AlertCircle, RefreshCw, Github, Linkedin, MessageSquare } from "lucide-react";
+import { Mail, Phone, Send, CheckCircle2, AlertCircle, RefreshCw, Github, Linkedin, MessageSquare } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { RINKAL_PROFILE } from "../../data/profile";
 
@@ -122,18 +122,6 @@ export default function Contact() {
                     </div>
                   </div>
                 </a>
-
-                <div className="flex items-start gap-4 p-4 rounded-2xl bg-[#02010c] border border-white/5 spotlight-card">
-                  <div className="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center shrink-0">
-                    <MapPin className="w-4.5 h-4.5 text-purple-400" />
-                  </div>
-                  <div>
-                    <div className="text-[9px] font-mono text-slate-500 uppercase tracking-widest">Current Geography</div>
-                    <div className="text-xs sm:text-sm font-semibold text-white mt-1">
-                      {RINKAL_PROFILE.location}
-                    </div>
-                  </div>
-                </div>
               </div>
 
               {/* Verified External Connections */}

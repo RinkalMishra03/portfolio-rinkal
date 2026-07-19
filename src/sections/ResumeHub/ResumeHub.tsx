@@ -134,7 +134,6 @@ LinkedIn Connect: ${RINKAL_PROFILE.linkedin}`;
                   <div className="flex flex-wrap gap-x-4 gap-y-1.5 mt-2 text-[10px] font-mono text-slate-400 print:text-slate-600">
                     <span>{RINKAL_PROFILE.email}</span>
                     <span>{RINKAL_PROFILE.phone}</span>
-                    <span>{RINKAL_PROFILE.location}</span>
                   </div>
                 </div>
                 
